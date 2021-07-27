@@ -210,7 +210,15 @@ nav .fa-facebook-square {margin-left: 70px;
     flex-wrap: wrap; 
     display: flex;}
 
-div button {background-color: #e2574c; text-align: center; width: 173px; height: 48px; margin: auto; text-transform: uppercase; color: white; font-weight: bold;
+div button {
+    background-color: #e2574c; 
+    text-align: center; 
+    width: 173px; 
+    height: 48px; 
+    margin: auto; 
+    text-transform: uppercase; 
+    color: #F2F2F2; 
+    font-weight: bold;
     border: none;}
 
 
@@ -235,6 +243,12 @@ footer {
 
 footer img {text-align:center;
 display:flex; margin-top:12px;}
+
+footer a:visited, a {
+    color: #F2F2F2;
+    text-decoration: none;
+}
+
   
 
 
@@ -264,5 +278,7 @@ footer .social2 {text-align:center;
 footer p {color:white; text-align:left;
 font-size: 20px; margin-bottom:15px; font-family: 'Raleway', sans-serif; font-weight: lighter;}
             
-.whatsapp {text-align:center;background-color: #29C44D;width:55px;height:55px; border-radius:50px;position:fixed;z-index: 9999;bottom: 20px;right: 20px;}
-.whatsapp  a {color:white;font-size:30px;display:block;line-height: 55px;}
+.whatsapp {
+    text-align:center;background-color: #29C44D;width:55px;height:55px; border-radius:50px;position:fixed;z-index: 9999;bottom: 20px;right: 20px;}
+.whatsapp  a {
+    color:white;font-size:30px;display:block;line-height: 55px;}
