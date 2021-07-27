@@ -210,6 +210,13 @@ nav .fa-facebook-square {margin-left: 70px;
     flex-wrap: wrap; 
     display: flex;}
 
+    .line {
+    width: 100%;
+    height: 1px;
+    background-color: #dddbdb;
+    margin-top: 17px;
+    }
+
 div button {
     background-color: #e2574c; 
     text-align: center; 
